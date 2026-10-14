@@ -4,6 +4,6 @@ resource "aws_instance" "name" {
   availability_zone = "us-east-1b"
 
   tags = {
-    Name = "Ravali_Instance"
+    Name = "R_Instance"
   }
 }
