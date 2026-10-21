@@ -1,10 +1,10 @@
-# Local .terraform directories
-**/.terraform/*
-# Terraform state files
+
+# Ignore Terraform directories
+**/.terraform/
+
+# Ignore Terraform state files
 *.tfstate
 *.tfstate.*
-# Terraform lock file
-.terraform.lock.hcl
-# Documents
-*.doc
-*.docx
+
+# Ignore Terraform lock files (as requested)
+**/.terraform.lock.hcl
